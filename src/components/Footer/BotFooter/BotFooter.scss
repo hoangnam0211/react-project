@@ -1,0 +1,15 @@
+.BotFooter {
+  background-color: #eaeaea;
+  padding: 5px 0;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h5 {
+    font-weight: normal;
+    font-size: 14px;
+  }
+}

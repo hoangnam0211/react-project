@@ -1,0 +1,36 @@
+.SliderBrand {
+  padding: 40px 0;
+
+  .wrapper {
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .swiper {
+    padding: 0 30px;
+
+    .swiper-slide {
+      cursor: pointer;
+
+      img {
+        margin: 0 auto;
+        width: 80%;
+      }
+    }
+
+    .swiper-button-prev.swiper-button-disabled {
+      color: #768b9e;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      color: #aeaeae;
+
+      &:after {
+        font-size: 15px;
+        font-weight: bold;
+      }
+    }
+  }
+}

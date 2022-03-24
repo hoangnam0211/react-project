@@ -1,0 +1,68 @@
+.top-footer {
+  background: #fed700;
+  padding: 12px 0;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+  }
+
+  .sign-up-text {
+    display: flex;
+    align-items: center;
+
+    i {
+      margin-right: 20px;
+      font-size: 22px;
+    }
+
+    h4 {
+      font-size: 23px;
+      margin-bottom: 0;
+      color: #333e48;
+    }
+  }
+
+  .discount {
+    p {
+      margin-bottom: 0;
+      font-size: 15px;
+    }
+  }
+
+  form {
+    width: 44%;
+    display: flex;
+
+    input {
+      width: 82%;
+      padding: 10px 30px;
+      font-size: 15px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+
+    button {
+      width: 18%;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      background-color: #333e48;
+      cursor: pointer;
+      color: #fff;
+      font-weight: 500;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: #000;
+      }
+    }
+  }
+}

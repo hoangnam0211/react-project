@@ -1,0 +1,145 @@
+.Register {
+  width: 48%;
+  padding: 0 15px 30px 60px;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: "";
+    left: -27px;
+    width: 1px;
+    height: 100%;
+    background: #ddd;
+  }
+
+  &:after {
+    position: absolute;
+    content: "or";
+    left: -27px;
+    top: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    background: #fff;
+    border-radius: 100%;
+  }
+
+  .title {
+    font-size: 28px;
+    padding-top: 25px;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      content: "";
+      bottom: -1px;
+      left: 0;
+      width: 100px;
+      height: 2px;
+      background: #fed700;
+    }
+  }
+
+  .desc {
+    margin-bottom: 25px;
+  }
+
+  .ant-form {
+    .ant-form-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .ant-form-item-label {
+      text-align: left;
+    }
+
+    .ant-form-item-required:before {
+      display: none !important;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 10px;
+
+      &:after {
+        display: none;
+      }
+    }
+
+    input {
+      padding: 10px 15px;
+      border-radius: 20px;
+    }
+
+    .ant-input-password {
+      padding: 10px 15px;
+      border-radius: 20px;
+
+      input {
+        padding: 0;
+        border-radius: 0;
+      }
+    }
+
+    .ant-input-suffix {
+      display: none !important;
+    }
+
+    .remember {
+      margin-bottom: 0;
+    }
+
+    .btn-register {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      width: 110px;
+      height: 42px;
+      font-weight: bold;
+      background: #efecec;
+      border: 0;
+      transition: all 0.3s;
+      margin-bottom: 20px;
+
+      &:hover {
+        background: #000;
+        color: #fff;
+      }
+    }
+  }
+
+  .sign-up {
+    h3 {
+      font-size: 20px;
+      padding-bottom: 15px;
+    }
+
+    ul {
+      li {
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 6px !important;
+
+        &:before {
+          position: absolute;
+          content: "\f00c";
+          color: #198754;
+          left: 0;
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+        }
+      }
+    }
+  }
+}

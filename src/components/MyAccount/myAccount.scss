@@ -1,0 +1,53 @@
+.MyAccount {
+  .wrapper-account {
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .list-option-account {
+    padding-top: 6.3rem;
+    width: 23%;
+
+    .option-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-top: 1px solid #ddd;
+      cursor: pointer;
+
+      &.active {
+        font-weight: 700;
+
+        i {
+          color: #333e48;
+        }
+      }
+
+      &:hover {
+        i {
+          color: #333e48;
+        }
+      }
+    }
+
+    i {
+      font-size: 16px;
+      color: #ddd;
+    }
+  }
+
+  .info {
+    width: 75%;
+
+    .big-heading {
+      padding-left: 14rem;
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+
+    button {
+      background: transparent;
+    }
+  }
+}

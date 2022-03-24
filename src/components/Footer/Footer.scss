@@ -1,0 +1,147 @@
+.footer {
+  padding: 50px 0;
+  background: #f8f8f8;
+
+  .wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .left-content {
+    width: 36%;
+
+    .logo {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .call-us {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+
+      i {
+        font-size: 50px;
+        color: #fed701;
+        margin-right: 25px;
+      }
+
+      span {
+        color: #babdbe;
+      }
+
+      p {
+        font-size: 25px;
+        margin-bottom: 0;
+      }
+    }
+
+    .contact-info {
+      margin-bottom: 15px;
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .social-icons {
+      display: flex;
+      align-items: center;
+
+      .social-icon {
+        margin-right: 25px !important;
+        font-size: 22px;
+
+        &:last-child {
+          margin-right: 0;
+          transform: rotate(45deg);
+          font-size: 20px;
+        }
+
+        i {
+          color: #7c7c7c;
+          transition: all 0.3s;
+        }
+
+        &:hover {
+          &:nth-child(1) {
+            i {
+              color: #3b5998;
+            }
+          }
+
+          &:nth-child(2) {
+            i {
+              color: #4fce5d;
+            }
+          }
+
+          &:nth-child(3) {
+            i {
+              color: #bd081c;
+            }
+          }
+
+          &:nth-child(4) {
+            i {
+              color: #0077b5;
+            }
+          }
+
+          &:nth-child(5) {
+            i {
+              color: #f25a00;
+            }
+          }
+
+          &:nth-child(6) {
+            i {
+              color: red;
+            }
+          }
+
+          &:nth-child(7) {
+            i {
+              color: #f60;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .right-content {
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+
+    .fint-it {
+      width: 30%;
+    }
+
+    .page {
+      width: 36%;
+    }
+
+    .custom-care {
+      width: 33%;
+    }
+
+    .list {
+      &:nth-child(2) {
+        padding-right: 100px;
+      }
+
+      h5 {
+        font-size: 17px;
+        margin-bottom: 18px;
+      }
+
+      ul {
+        li {
+          margin-bottom: 10px !important;
+        }
+      }
+    }
+  }
+}

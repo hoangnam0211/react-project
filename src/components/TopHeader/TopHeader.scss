@@ -1,0 +1,38 @@
+.TopHeader {
+  border-bottom: 1px solid #ddd;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0 10px;
+  }
+
+  .list-items {
+    display: flex;
+
+    .item {
+      padding: 0 10px;
+      position: relative;
+
+      &:before {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 50%;
+        width: 1.8px;
+        height: 18px;
+        background: #ddd;
+        transform: translateY(-50%);
+      }
+
+      &:last-child {
+        padding-right: 0;
+
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+}
